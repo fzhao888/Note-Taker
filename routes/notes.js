@@ -54,13 +54,15 @@ notes.delete('/:id', (req,res) => {
      readFromFile('./db/db.json')
         .then((data) => {
             let parsedData = JSON.parse(data); 
-      
+            
+            // only add note to newDB if id is not a match
             for(let i = 0; i<parsedData.length;i++){
                 if(parsedData[i].id !== req.params.id){
                     newDB.push(parsedData[i]);
                 }
             }
 
+            //write newDB to db.json
             fs.writeFile('./db/db.json', JSON.stringify(newDB, null, 4), (err) => err ? console.error(err) : console.info(`\nData successfully written to db.json.`))
 
             res.json(newDB);
