@@ -31,7 +31,7 @@ notes.post('/', (req, res) => {
             } else {
                 const parsedData = JSON.parse(data);
                 parsedData.push(newNote);
-                fs.writeFile('./db/db.json', JSON.stringify(parsedData, null, 4), (err) => err ? console.error(err) : console.info(`\nData successfully writter to db.json.`))
+                fs.writeFile('./db/db.json', JSON.stringify(parsedData, null, 4), (err) => err ? console.error(err) : console.info(`\nData successfully writter to db.json.`));
             }
         });
 
