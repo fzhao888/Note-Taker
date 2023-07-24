@@ -17,7 +17,8 @@
   Please 'npm i' in a command line terminal to install express and uuid. 
   
   ## Usage
-  To use this note taker app, simply visit https://frank-note-taker-e1c255ad5ce5.herokuapp.com/. Click on the get started button on the landing page to use the note taker app.  When  a new note title and the note's text is entered, then a Save icon appears in the navigation at the top right hand corner of the page.  In addition, the garbage bin icon can be clicked on to delete a note.
+  To use this note taker app, simply visit https://frank-note-taker-e1c255ad5ce5.herokuapp.com/. Click on the Get Started button on the landing page to use the note taker app.  When  a new note title and the note's text is entered, then a Save icon appears in the navigation at the top right hand corner of the page. When the Save icon is clicked on,
+  the new note entered is saved and appears in the left-hand column with the other existing notes.  In addition, the Write icon (the plus sign icon at the top right hand corner of the page) can be clicked on to be presented with empty fields to enter a new note title and the note’s text in the right-hand column. Furthermore, the garbage bin icon, next to each note, can be clicked on to delete a note.
   
   ![Screenshot of webpage](/public/assets/images/notetaker_sample.png)
   ![Screenshot of webpage](/public/assets/images/notetaker_sample2.png)
@@ -30,7 +31,7 @@
   ## How To Contribute
   To contribute to this note taker app, please visit https://github.com/fzhao888/Note-Taker .
   
-  ## Tests
+  ## Tests  
   N/A
   
   ## Questions
