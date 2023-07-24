@@ -20,6 +20,7 @@
   To use this note taker app, simply visit https://frank-note-taker-e1c255ad5ce5.herokuapp.com/. Click on the get started button on the landing page to use the note taker app.  When  a new note title and the note's text is entered, then a Save icon appears in the navigation at the top right hand corner of the page.  In addition, the garbage bin icon can be clicked on to delete a note.
   
   ![Screenshot of webpage](/public/assets/images/notetaker_sample.png)
+  ![Screenshot of webpage](/public/assets/images/notetaker_sample2.png)
 
   ## License
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
