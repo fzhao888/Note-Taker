@@ -64,12 +64,9 @@ notes.delete('/:id', (req,res) => {
 
             //write newDB to db.json
             fs.writeFile('./db/db.json', JSON.stringify(newDB, null, 4), (err) => err ? console.error(err) : console.info(`\nData successfully written to db.json.`))
-
+            
             res.json(newDB);
         } );
-
-        
-        
 });
 
 module.exports = notes;
