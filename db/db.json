@@ -1,17 +1,27 @@
 [
     {
-        "title": "a",
-        "text": "a",
-        "id": "dd252329-f776-4579-a75b-e6d7bf86ad83"
+        "title": "Hello",
+        "text": "Welcome to Note Taker!",
+        "id": "1380505f-766f-4d0c-8e9f-27888b374f18"
     },
     {
-        "title": "aa",
-        "text": "aaaa",
-        "id": "00bcdb6c-c8c3-4140-99d7-3daa5b1cd880"
+        "title": "Finish Note Taker app",
+        "text": "Note Taker app due on 7/24!",
+        "id": "d9c9413b-4613-47c4-886e-d9e1bb73b0b3"
     },
     {
-        "title": "Ok",
-        "text": "WWWW",
-        "id": "0ff66bb9-4def-47ef-8b6e-a392344d80f5"
+        "title": "Call mom",
+        "text": "Tell mom I love her!",
+        "id": "d8681798-d2d5-4970-b6ff-11fb72782256"
+    },
+    {
+        "title": "Finish Mindset",
+        "text": "Finish reading Mindset",
+        "id": "268f10bd-4773-49ea-9c68-1464b6c4cb00"
+    },
+    {
+        "title": "Drink water",
+        "text": "Drink at least a gallon of water per day!",
+        "id": "2acc30b5-3365-4c2a-8314-dfd470272057"
     }
 ]
